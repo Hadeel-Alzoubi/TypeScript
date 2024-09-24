@@ -24,7 +24,6 @@ for (var i = 0; i < isAdmin.length; i++) {
     }
 }
 console.log(OldAdmin);
-
 // // تحديد نوع المتغير
 // let message: string = "مرحبًا بك في TypeScript!";
 // // دالة بسيطة لطباعة رسالة في الصفحة
@@ -36,3 +35,7 @@ console.log(OldAdmin);
 // }
 // // استدعاء الدالة
 // showMessage(message);
+function greet(name, age) {
+    return "Hello, ".concat(name, ". You are ").concat(age, " years old.");
+}
+console.log(greet("hadeel", 27));

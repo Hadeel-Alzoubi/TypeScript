@@ -52,3 +52,8 @@
 
 // // استدعاء الدالة
 // showMessage(message);
+
+function greet(name: string , age: number): string {
+   return `Hello, ${name}. You are ${age} years old.`;
+}
+console.log(greet("hadeel",27));
